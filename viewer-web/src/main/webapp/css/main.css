@@ -1,0 +1,33 @@
+.modal-title-ex {
+    text-transform: uppercase;
+    color: #428bca;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ng-table th {
+    background-color: #f3f3f3;
+    color: #747474;
+    font-size: 13px;
+    font-family: Tahoma, tahoma, arial, helvetica;
+}
+
+.ng-table {
+    border-radius: 4px;
+}
+
+.ui-select-placeholder, .ui-select-match-text, .ui-select-match-item {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+
+div.multiline-select .ui-select-bootstrap .ui-select-choices-row > span {
+    white-space: normal;
+}
+
+div.multiline-select .ui-select-bootstrap .ui-select-match > span.btn {
+    white-space: normal;
+    height: auto;
+}
