@@ -11,13 +11,12 @@ add in /conf/context.xml
 
 add in /lib file postgresql-42.1.4.jar (https://jdbc.postgresql.org/download.html)
 
-
 use Postgres SQL
-CREATE DATABASE viewer;
+<br> <code>CREATE DATABASE viewer;<code>
 
 in app 
 module viewer-service - application.properties
-param: documents.dir= add your path to .dbf files
-param: runTask=update file every time at start -> true/false
+<br> <code> param: documents.dir= add your path to .dbf files<code>
+<br> <code> param: runTask=update file every time at start -> true/false<code>
 
 -- no sql scripts - tables generate from code;
